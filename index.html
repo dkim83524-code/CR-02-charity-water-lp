@@ -1,47 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>charity: water — Your Coffee Money Can Change Someone's Life</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
+  <nav role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">
+      <div class="logo-icon">💧</div>
+      charity: water
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#story">The Crisis</a></li>
+      <li><a href="#how">Our Work</a></li>
+      <li><a href="#testimonial">Stories</a></li>
+      <li><a href="#cta-final">Get Involved</a></li>
+      <li><a href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer" class="btn-nav">Donate</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
 
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+  <main>
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <img class="hero-img" src="hero.jpg" alt="A child receiving clean water" loading="lazy">
+      <div class="hero-content">
+        <span class="hero-eyebrow">100% to the field</span>
+        <h1 class="hero-headline">Your <span>coffee money</span> can change someone's life.</h1>
+        <p class="hero-sub">771 million people still don't have clean water. charity: water has reached 18 million of them — with 100% of public donations going directly to the field. Your coffee money can be next.</p>
+        <div class="hero-cta-group">
+          <a href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer" class="btn-primary">Donate $10 to make a real impact</a>
+          <a href="#story" class="btn-ghost">See how it works ↓</a>
         </div>
+        <div class="hero-trust">
+          <span class="trust-dot"></span>
+          18,000,000+ people reached with clean water
+        </div>
+      </div>
     </section>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <section id="stats">
+      <div class="stats-inner">
+        <div class="stat-item">
+          <div class="stat-number">771M</div>
+          <div class="stat-label">people still lack access<br>to clean water</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">18M+</div>
+          <div class="stat-label">people reached by<br>charity: water projects</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">of public donations go<br>directly to the field</div>
+        </div>
+      </div>
     </section>
+
+    <section id="story">
+      <div class="story-inner">
+        <div class="story-text">
+          <span class="section-label">The Crisis & Our Promise</span>
+          <h2>Every dollar goes further than you think.</h2>
+          <p>Most charities use your donation to cover overhead like staff, marketing, and operations. charity: water is different. 100% of every public donation funds clean water projects in the field. Overhead is covered entirely by private donors.</p>
+          <p>That means your $10 doesn't get diluted. It goes directly to drilling wells, building filtration systems, and training local communities to maintain them for decades.</p>
+          <p>When a project is complete, charity: water sends GPS coordinates and photos proving exactly where your money went. Transparency isn't a promise — it's a receipt.</p>
+          <a href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer" class="btn-primary btn-secondary">Give Clean Water Today</a>
+        </div>
+        <div class="story-img-wrap">
+          <img src="story.jpg" alt="Clean water project in action" loading="lazy">
+          <div class="story-badge">
+            <span>150K+</span>
+            water projects funded worldwide
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="section-header">
+        <span class="section-label">Simple & Transparent</span>
+        <h2>How your $10 becomes clean water</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card-num">1</div>
+          <h3>You give $10</h3>
+          <p>Skip one coffee. Donate it instead. Every dollar of your public donation goes directly to a water project — zero taken for overhead.</p>
+        </article>
+        <article class="card">
+          <div class="card-num">2</div>
+          <h3>We fund projects</h3>
+          <p>charity: water partners with local organizations to drill wells, build filtration systems, and train communities to maintain clean water sources for generations.</p>
+        </article>
+        <article class="card">
+          <div class="card-num">3</div>
+          <h3>You see proof</h3>
+          <p>When your project is complete, you receive GPS coordinates and photos of the exact well or system your donation helped build. Real impact, verified.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="testimonial-inner">
+        <span class="quote-marks">"</span>
+        <blockquote>I never thought <span>$10 could do something real</span>. Then I saw the GPS coordinates of the well my donation helped build — in a village I'd never heard of, for people I'd never meet. That changed how I think about giving.</blockquote>
+        <div class="testimonial-attribution">
+          <div class="attr-avatar">A</div>
+          <div class="attr-text">
+            <div class="attr-name">Alex</div>
+            <div class="attr-role">College student & charity: water donor</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact">
+      <div class="impact-inner">
+        <h2>Real impact, measured and verified</h2>
+        <div class="impact-grid">
+          <div class="impact-card">
+            <div class="impact-icon">💧</div>
+            <div class="impact-stat">18M+</div>
+            <div class="impact-desc">People reached with clean water since 2006</div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">🌍</div>
+            <div class="impact-stat">29</div>
+            <div class="impact-desc">Countries where charity: water operates</div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">📍</div>
+            <div class="impact-stat">150K+</div>
+            <div class="impact-desc">Water projects funded with GPS proof</div>
+          </div>
+          <div class="impact-card">
+            <div class="impact-icon">✅</div>
+            <div class="impact-stat">100%</div>
+            <div class="impact-desc">Of public donations go directly to the field</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta-final">
+      <div class="cta-final-inner">
+        <h2>Your coffee money can be next.</h2>
+        <p>Join millions of people who've already turned a small donation into something real — clean water, verified impact, a life changed.</p>
+        <a href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer" class="btn-navy">Give Clean Water Today</a>
+        <p class="cta-disclaimer">100% of your donation goes directly to water projects. No overhead taken.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">charity: water</div>
+    <p class="footer-tagline">100% of public donations go directly to water projects.</p>
+    <a href="https://www.charitywater.org" target="_blank" rel="noopener noreferrer" class="footer-link">charitywater.org →</a>
+    <div class="footer-divider"></div>
+    <p class="footer-copy">© 2026 charity: water. All rights reserved. Landing page created by Daniel Kim.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
